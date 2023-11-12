@@ -1,0 +1,6 @@
+MySQL 
+
+Create account username: root password: Asdf1234
+Create a schema
+Import testmysql_usertweet.sql from Data Import Wizard
+Increase global max connections if necessary : SET GLOBAL max_connections = 500
