@@ -1,2 +1,2 @@
 # multiagentsimulator
-Multi-Agend Simulator
+Multi-Agent Simulator
