@@ -1,0 +1,19 @@
+1. In the command prompt, go to the directory "MAS Files Required"
+2. Type the following commands in the following order:
+
+javac -cp jade.jar;commons-codec-1.3.jar;mysql-connector-java-5.1.39-bin.jar; -d classes TwitterGatherDataFollowers/userRyersonU/*.java
+java -cp jade.jar;commons-codec-1.3.jar;mysql-connector-java-5.1.39-bin.jar;classes jade.Boot -local-port 35240 controller:TwitterGatherDataFollowers.userRyersonU.ControllerAgent
+
+3. When the program starts, go to File -> Dataset From Text
+4. Find and choose demoTextData.txt (it should be in the current directory)
+5. Then click on the "Get Users" button. This must be the first button to click on otherwise, the system will crash.
+6. After the List of Users have been populated, you can adjust the initialization parameters
+7. After adjusting the initialization parameters, you can click on the "Initialize" button
+8. Then you can run the simulation by clicking on "Run Simulation"
+	Sometimes an error can occur if the user you selected to get recommendations for was removed from the simulation
+	because after text processing, the user had no more tweets available for comparison. An error message will show
+	appropriately in the result window.
+9. To re-run the simulation, simply click 'Initialize' button again or if you want to change initialization parameters,
+   you may do so before clicking on the 'Initialize' button. Then click 'Run Simulation'
+
+

@@ -1,0 +1,2 @@
+javac -cp jade.jar;commons-codec-1.3.jar;mysql-connector-java-5.1.39-bin.jar; -d classes TwitterGatherDataFollowers/userRyersonU/*.java
+java -cp jade.jar;commons-codec-1.3.jar;mysql-connector-java-5.1.39-bin.jar;classes jade.Boot -local-port 35240 controller:TwitterGatherDataFollowers.userRyersonU.ControllerAgent
